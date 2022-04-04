@@ -20,3 +20,5 @@
 ```
     $ npm install --save-dev style-loader css-loader
 ```
+
+- webpack-7 : output 설정

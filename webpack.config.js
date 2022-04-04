@@ -5,10 +5,13 @@ const path = require('path');
 
 module.exports = {
     mode: "development",    // default : production
-    entry: "./source/index.js",
+    entry: {
+        index: "./source/index.js",
+        about: "./source/about.js",
+    },
     output: {
         path: path.resolve(__dirname, "public"),   // __dirname :: 현재 파일이 있는 경로, node.js 의 예약어
-        filename: 'index_bundle.js'
+        filename: '[name]_bundle.js'
     },
     module: {
         rules: [
