@@ -6,3 +6,10 @@
     $ npm install -D webpack webpack-cli
     $ npx webpack --entry ./source/index.js -o ./public/index_bundle
 ```
+
+- webpack-4 : 설정파일 도입 (webpack.config.js, https://webpack.js.org/configuration/)
+```
+    $ npx webpack --config webpack.config.js 
+    또는
+    $ npx webpack
+```
