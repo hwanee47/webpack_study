@@ -15,3 +15,8 @@
 ```
 
 - webpack-5 : 모드의 도입
+
+- webpack-6 : 로더의 도입
+```
+    $ npm install --save-dev style-loader css-loader
+```
