@@ -32,3 +32,8 @@
 ```
     $ npx webpack --watch
 ```
+
+- webpack-10 : npm 패키지 사용
+```
+    $ npm install lodash
+```
