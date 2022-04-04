@@ -1,0 +1,15 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "- webpack-2 : 웹팩이전의 세계와 모듈의 개념 - webpack-3 : 웹팩의 도입",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

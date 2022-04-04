@@ -6,16 +6,7 @@
     <body>
         <h1>Hello, Webpack</h1>
         <div id="root"></div>
-
-        <script type="module">
-            // 뒤늦게 참조된 world.js파일의 word로 처리됨. (이름이 같아~), 변수이름이 겹치는 문제가 발생함. --> 이런 문제를 극복하기위해 자바스크립트 module이란 개념이 나타남.
-
-            import hello_word from "./source/hello.js";
-            import world_word from"./source/world.js";
-
-            document.querySelector("#root").innerHTML = hello_word + " " + world_word;
-
-        </script>
+        <script src="./public/index_bundle/main.js"></script>
     </body>
 
 </html>
