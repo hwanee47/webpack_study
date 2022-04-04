@@ -4,7 +4,7 @@
 const path = require('path');
 
 module.exports = {
-    mode: "development",    // default : production
+    mode: "production",    // default : production
     entry: "./source/index.js",
     output: {
         path: path.resolve(__dirname, "public"),   // __dirname :: 현재 파일이 있는 경로, node.js 의 예약어

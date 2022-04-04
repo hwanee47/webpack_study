@@ -13,3 +13,5 @@
     또는
     $ npx webpack
 ```
+
+- webpack-5 : 모드의 도입
