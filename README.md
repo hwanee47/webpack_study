@@ -22,3 +22,8 @@
 ```
 
 - webpack-7 : output 설정
+
+- webpack-8 : 플러그인 도입
+```
+    $ npm install --save-dev html-webpack-plugin
+```
